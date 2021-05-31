@@ -1,0 +1,145 @@
+.textareaContainer {
+	width: 598px;
+	height: 158px;
+	overflow: auto;
+}
+
+.textarea {
+	border: 1px solid #eee;
+	padding: 30px 30px;
+	border-radius: 16px;
+	width: 598px;
+	height: 138px;
+	border-radius: 20;
+	margin-bottom: 25px;
+	resize: none;
+	outline: none;
+	overflow: auto;
+}
+
+.uploadLink {
+	position: relative;
+	overflow: visible;
+	color: gray;
+	top: -198px;
+	left: 30px;
+	font-size: 16px;
+}
+
+.textarea:focus {
+	border-radius: 16px;
+	border: 1px solid #0068e4;
+}
+
+.simpleInput {
+	width: 307px;
+	height: 28px;
+	padding: 19px 20px;
+	border-radius: 8px;
+	margin: 0 30px 30px 0px;
+	border: 1px solid #eee;
+	outline: none;
+	font-size: 16px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.57;
+	letter-spacing: -0.05px;
+}
+
+.simpleInput:focus {
+	border: 1px solid #0068e4;
+}
+
+.selectInput {
+	width: 307px;
+	height: 22px;
+	padding: 22px 20px;
+	border-radius: 8px;
+	margin: 0 30px 30px 0px;
+	border: 1px solid #eee;
+	outline: none;
+	font-size: 16px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.57;
+	letter-spacing: -0.05px;
+	cursor: pointer;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.selectInputOpened {
+	border: 1px solid #0068e4;
+	overflow: visible;
+	width: 307px;
+	height: 22px;
+	padding: 22px 20px;
+	border-radius: 8px;
+	margin: 0 30px 30px 0px;
+	outline: none;
+	font-size: 16px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.57;
+	letter-spacing: -0.05px;
+	cursor: pointer;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.languagePlaceholder {
+	color: gray;
+	font-size: 16px;
+}
+
+.selectList {
+	border: 1px solid #eee;
+	border-radius: 8px;
+	width: 347px;
+	margin-top: -25px;
+	min-height: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding: 10px 0px;
+	font-size: 16px;
+}
+
+.listItem {
+	width: 287px;
+	height: 20px;
+	padding: 10px 30px;
+	cursor: pointer;
+}
+
+.listItem:hover {
+	background-color: #eee;
+}
+
+.arrowIconOpen {
+	transform: rotate(180deg);
+}
+
+.uploadFile {
+    display: none;
+}
+
+.linkUpload {
+	color: #0068e4;
+	cursor: pointer;
+}
+
+.uploadSuccess {
+	position: relative;
+	top: -170px;
+	left: 40px;
+	margin-top: -30px;
+	color: gray;
+}
