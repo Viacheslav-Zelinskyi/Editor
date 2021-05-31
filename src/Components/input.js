@@ -15,11 +15,11 @@ export function TextareaInput({ text, setText, setFilename }) {
 			{file === false ? null : (
 				<p className="uploadSuccess">
 					Файл загружен <br />
-					Количество символов: {text.length}
+					Количество символов: {text.replace(/\s/g, '').length}
 				</p>
 			)}
 			{text === '' && file === false ? (
-				<div className="uploadLink">
+				<div className="textareaPlaceholder">
 					Вставьте текст или{' '}
 					<span className="linkUpload" onClick={() => inputFile.current.click()}>
 						загрузите файл

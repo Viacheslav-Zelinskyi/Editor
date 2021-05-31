@@ -17,12 +17,13 @@
 	overflow: auto;
 }
 
-.uploadLink {
+.textareaPlaceholder {
 	position: relative;
 	overflow: visible;
 	color: gray;
-	top: -198px;
+	top: -180px;
 	left: 30px;
+	margin-top: -18px;
 	font-size: 16px;
 }
 
@@ -128,7 +129,7 @@
 }
 
 .uploadFile {
-    display: none;
+	display: none;
 }
 
 .linkUpload {
@@ -138,8 +139,8 @@
 
 .uploadSuccess {
 	position: relative;
-	top: -170px;
-	left: 40px;
-	margin-top: -30px;
+	top: -140px;
+	left: 50px;
+	margin-top: -52px;
 	color: gray;
 }
